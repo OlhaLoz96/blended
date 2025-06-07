@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
@@ -67,44 +67,71 @@
     </header>
     <!-- #endregion header -->
 
-    <main>
+    <main class="main">
       <!-- #region section1 hero -->
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <ul>
-          <li><button type="button">Get started</button></li>
-          <li><button type="button">Watch the Video</button></li>
-        </ul>
-        <img src="./images/hero.png" alt="hero-image" width="610" />
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-buttons-list">
+              <li>
+                <button type="button" class="hero-button-get-started">
+                  Get started
+                </button>
+              </li>
+              <li>
+                <button type="button" class="hero-button-watch">
+                  Watch the Video
+                </button>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="./images/hero.png"
+            alt="hero-image"
+            width="610"
+            class="hero-image"
+          />
+        </div>
       </section>
       <!-- #endregion section1 hero -->
 
       <!-- #region section2 -->
-      <section>
-        <h2>Product was Built Specifically for You</h2>
-        <ul>
-          <li>
-            <h3>First click tests</h3>
-            <p>While most people enjoy casino gambling,</p>
-          </li>
-          <li>
-            <h3>Design surveys</h3>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
-          </li>
-          <li>
-            <h3>Preference tests</h3>
-            <p>The Myspace page defines the individual.</p>
-          </li>
-          <li>
-            <h3>Five second tests</h3>
-            <p>Personal choices and the overall personality of the person.</p>
-          </li>
-        </ul>
-        <button type="button">SIGN UP NOW</button>
+      <section class="features">
+        <div class="container">
+          <h2 class="features-title">Product was Built Specifically for You</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-heading">First click tests</h3>
+              <p class="features-desc">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-heading">Design surveys</h3>
+              <p class="features-desc">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-heading">Preference tests</h3>
+              <p class="features-desc">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-heading">Five second tests</h3>
+              <p class="features-desc">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
+          <button type="button" class="features-button">SIGN UP NOW</button>
+        </div>
       </section>
       <!-- #endregion section2 -->
 
